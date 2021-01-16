@@ -18,7 +18,7 @@ def norma_p ( M, p, m ):
 		x = np.random.rand( lin_col[0], 1 )
 		x = ( x / np.linalg.norm( x ) )
 		
-		norma_aux = norma_p_vetor( M @ x, p ) / norma_p_vetor( x, p )
+		norma_aux = norma_p_vetor( M @ x, p )
 		
 		norma = max( norma, norma_aux )
 	
