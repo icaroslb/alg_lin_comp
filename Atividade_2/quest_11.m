@@ -1,4 +1,4 @@
-function [U S V] = quest_11( A )
+function [U S V] = quest_11 ( A )
   tamanhos = size( A );
   H = vertcat( horzcat( zeros( tamanhos ), A' ), horzcat( A, zeros( tamanhos ) ) );
   

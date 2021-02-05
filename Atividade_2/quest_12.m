@@ -1,4 +1,4 @@
-function [posto] = quest_12( A )
+function [posto] = quest_12 ( A )
   [U S V] = svd( A );
   
   erro = norm( S, 2 ) * eps;
